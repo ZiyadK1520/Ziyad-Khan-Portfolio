@@ -1,23 +1,43 @@
-body{
-    background-color:whitesmoke;
+html{
+    background-color:#FCFAF9;
 }
 
 nav{
-    width:100%;
+    margin: 0 auto;
+    padding: 0;
+    width:50%;
     height: 10%;
-    background-color:black;
+    background:#C8C8BC;
+    opacity: .6;
     color:whitesmoke;
     text-align:center;
     padding: 1%;
+    border:none;
+    border-radius: 25px;
+}
+
+.selection{
+    margin:5px;
 }
 
 a{
     color:white;
     font-weight:heavy;
+    opacity: 1;
 
 }
 
 #Resume{
-    float: right;
-    margin-right: 15px;
+    float:right;
+    color:black;
+    
+}
+
+#intro{
+    float:left;
+    width:25%;
+    height:auto;
+    margin-top:10%;
+    margin-left:20%;
+    text-align: center;
 }
