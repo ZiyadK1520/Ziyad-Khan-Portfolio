@@ -10,7 +10,7 @@ html{
 }
 .container { 
     
-    width: 11%; 
+    width: 205px; 
     height: auto; 
     position:absolute;
     top:70%;
@@ -32,8 +32,6 @@ html{
 
 .text-typing p a{
     text-decoration: none;
-    color: #520000;
-    font-weight: 500;
 }
 
 .text-typing p { 
@@ -112,20 +110,21 @@ nav{
     margin:5px;
 }
 
-/*a{
+a{
+    
     color:#520000;
     font-weight:600;
     opacity: 1;
     text-decoration: none;
     font-size: 15px;
     transition: all 1s ease;
-    padding: 2px 4px;
+    padding: 4px 6px;
     border-radius: 10px;
 }
 a:hover{
     color:#F7F3F7;
     box-shadow: inset 0 -10.5em 0 0 #520000;
-}*/
+}
 
 
 
@@ -143,15 +142,13 @@ a:hover{
 }
 
 #pfp{
-    justify-content:space-around;
-    float:left;
-    margin-top:6%;
-    margin-left:25%;
-    width: 300px;
-    height: 300px;
-    border: 10px solid #520000;
-    border-radius: 50%;
-    background-image: url(images/ziyad-khan-2.jpg);
+    margin-top: 10%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+    width: 250px;
+    height: 280px;
+    border-radius: 0%;
+    background-image: url(images/ziyad-khan.jpg);
     background-size: cover;
 }
 #abt-pg-wrapper{
@@ -169,30 +166,34 @@ a:hover{
 }
 
 .pagename{
-    margin-top:10%;
+    font-size: 42px;
+    margin-top:5%;
     color:#F7F3F7;
     text-align: center;
 }
 
 .wrapper{
     width: 85%;
-    height:auto;
-    border:solid 1px #F7F3F7;
+    height:100%;
+    border:solid 1px;
     margin-top: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+  
 
 }
 
 .project-box{
-    
+    background-color: #221C1F;
     text-align: center;
     margin-left: 2%;
     padding:2px;
     width:30%;
+    height:100%;
     display:inline-block;
-
+    border-radius: 12px;
+    
 }
 .project-img{
     width:100%;
@@ -218,4 +219,49 @@ footer{
     color:#F7F3F7;
         
     
+}
+
+.holder{
+    margin:5% 10%;
+    width:80%;
+    height:100%;
+    /*border:solid white 1px;*/
+    display: flex;
+}
+
+.abt-pg-header{
+    margin-top: 25%;
+    margin-bottom: 25%;
+    text-align: center;
+    float:left;
+    width:50%;
+    font-family: "Space Grotesk" sans-serif;
+    color:#F7F3F7;
+    /*border: solid white 1px;*/
+    font-size: 45px;
+    font-weight: 700;
+    
+    
+}
+
+.abt-pg-text{
+    text-align: center;
+    display:block;
+    width:50%;
+    /*border:solid white 1px;*/
+    color: #F7F3F7;
+}
+
+.highlight{
+    color:#520000
+}
+
+.highlight:hover{
+    background-color: #520000;
+    box-shadow: 0 0 5px #520000, 0 0 25px #520000, 0 0 50px #520000, 0 0 200px #520000;
+    color:#F7F3F7;
+}
+
+.proj-description{
+    color: #F7F3F7;
 }
