@@ -5,6 +5,7 @@ html{
     background: -webkit-linear-gradient(top,#0B090A 0%,#221C1F 100%);
     background: -o-linear-gradient(top,#0B090A 0%,#221C1F 100%);
     background: linear-gradient(top,#0B090A 0%,#221C1F 100%);
+    background-color:#0B090A;
     font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -79,6 +80,7 @@ typing 6s steps(30, end) forwards, blink 1s infinite;
     text-align: center;
     margin:0;
     font-size: 40px;
+    
 
 
 }
