@@ -5,40 +5,50 @@
     <meta charset="UTF-8">
     <title>Contact Page</title>
     <link rel="stylesheet" href="full.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 </head>
 
 
 <body>
     <header>
         <nav>
-            <a class="selection" href="index.html">Home</a>
-            <a class="selection" href="about_pg.html">About Me</a>
-            <a class="selection" href="projects.html">Projects</a>
-            <a class="selection" href="contact.html">Contact Me</a>
+            <a class="selection" href="index.html">HOME</a>
+            <a class="selection" href="about_pg.html">ABOUT ME</a>
+            <a class="selection" href="projects.html">PROJECTS</a>
+            <a class="selection" href="contact.html">CONTACT ME</a>
+            <a id="Resume" href="Resume/ZiyadKhan-Resume.pdf">RESUME</a>
         </nav>
-        <a id="Resume" href="Resume/ZiyadKhan-Resume.pdf">Resume</a>
+        
     </header>
-    <h1>Contact Me</h1>
+    <h1 class="pagename">Contact Me</h1>
+    <div class="form">
     <form action="mailto:ziyad.khan@ontariotechu.net" ?subject="Signup" Form method="post" enctype="text/plain" name="Form">
     <p>
-        <label for="name">Name: </label>
-        <input type="text"name="name" placeholder="First and Last name" size="32" required>
+        
+        <input class="text-prompt"type="text"name="name" placeholder="Name" size="32" required>
     </p>
     <p>
-        <label for="email">Email: </label>
-        <input type="text"name="email" placeholder="Please enter email" size="40" required>
+        
+        <input class="text-prompt" type="text"name="email" placeholder="Email" size="40" required>
     </p>
     <p>
-        <label for="phone">Cell phone Number: </label>
-        <input type="text"name="phone" placeholder="Cell Phone number" size="32" required>
+        
+        <input class="text-prompt" type="text"name="phone" placeholder="Cell Phone number" size="32" required>
     </p>
     <p><input type="submit" value="click here to submit form"/></p>
 </form>
-<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">Linkedin</a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/ZiyadK1520">Github</a>
-<footer class="footer">
-    <p>Designed and developed by Ziyad Khan</p>
-    <p>Contact Ziyad at <a href="mailto:ziyad.khan@ontariotechu.net">ziyad.khan@ontariotechu.net</a></p>
+</div>
+<div class="button-holder">
+<a class="link-btn"target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">LINKEDIN</a>
+<a class="link-btn"target="_blank" rel="noopener noreferrer" href="https://github.com/ZiyadK1520">GITHUB</a>
+</div>
+<footer>
+    Designed and developed by Ziyad Khan
+    <address>
+        Contact me at <a href="mailto:ziyad.khan@ontariotechu.net">ziyad.khan@ontariotechu.net</a>
+    </address>
 </footer>
 </body>
 
