@@ -132,9 +132,9 @@ a:hover{
 
 
 #pfp{
-    margin-top: 10%;
-    margin-left: 35%;
-    margin-bottom: 5%;
+    position:absolute;
+    top:25%;
+    left: 63%;
     width: 250px;
     height: 280px;
     border-radius: 0%;
@@ -156,15 +156,11 @@ a:hover{
 .wrapper{
     width: 85%;
     height:100%;
-    
     margin-top: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
     text-align: center;
-  
-
 }
 
 .project-box{
@@ -229,9 +225,12 @@ footer{
 }
 
 .abt-pg-text{
+    position:absolute;
+    left:55%;
+    top:55%;
     text-align: center;
-    display:block;
-    width:50%;
+    width:30%;
+    margin:auto;
     /*border:solid white 1px;*/
     color: #F7F3F7;
 }
@@ -271,3 +270,11 @@ footer{
     margin:auto;
 }
 
+video{
+    position:absolute;
+    top:73%;
+    left:70%;
+    width:400px;
+    height:270px;
+    
+}

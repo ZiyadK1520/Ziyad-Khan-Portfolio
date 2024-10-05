@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact Page</title>
-    <link rel="stylesheet" href="full.css">
+    <link rel="stylesheet" href="full.css" type="text/css" media="only screen and (min-width:960px)">
+    <link rel="stylesheet" href="phone.css" type="text/css" media="only screen and (max-width:480px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
@@ -18,7 +19,7 @@
             <a class="selection" href="about_pg.html">ABOUT ME</a>
             <a class="selection" href="projects.html">PROJECTS</a>
             <a class="selection" href="contact.html">CONTACT ME</a>
-            <a id="Resume" href="Resume/ZiyadKhan-Resume.pdf">RESUME</a>
+            <a id="Resume" target="_blank" href="Resume/ZiyadKhan-Resume.pdf">RESUME</a>
         </nav>
         
     </header>
@@ -35,7 +36,7 @@
     </p>
     <p>
         
-        <input class="text-prompt" type="number"name="phone" placeholder="Cell Phone number" size="32" required>
+        <input class="text-prompt" type="tel"name="phone" placeholder="Cell Phone number" size="32" required>
     </p>
     <p><input type="submit" value="click here to submit form"/></p>
 </form>

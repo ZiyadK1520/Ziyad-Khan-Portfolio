@@ -1,0 +1,260 @@
+html{
+  background-color: #0B090A;
+}
+
+.container{
+    width: 200px;
+    height:auto;
+    position: absolute;
+    top:70%;
+    left:27%
+}
+
+.text-typing { 
+    
+    padding: 10px 20px; 
+    background: #F7F3F7; 
+    font-size: 15px; 
+    font-family: "Space Grotesk", sans-serif; 
+    border-radius: 50px; 
+    overflow: hidden; 
+    position: relative; 
+} 
+
+.text-typing p a{
+    text-decoration: none;
+}
+
+.text-typing p { 
+    margin: 0px; 
+    white-space: nowrap; 
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0); 
+    animation:  
+typing 6s steps(30, end) forwards, blink 1s infinite; 
+} 
+
+@keyframes typing { 
+    0% { 
+        width: 0% 
+    } 
+
+    100% { 
+        width: 100%
+    } 
+} 
+
+@keyframes blink { 
+
+    0%, 
+    100% { 
+        border-right: 2px solid transparent; 
+    } 
+
+    50% { 
+        border-right: 2px solid #222; 
+    } 
+} 
+
+#greeting{
+    color: #F7F3F7;
+    width: 65%;
+    height: 24%;
+    background-color:none;
+    text-align: center;
+    position: absolute;
+    top:40%;
+    width:100%;
+    text-align: center;
+    margin:0;
+    font-size: 40px;
+}
+
+span{
+    color:#520000;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 5px;
+    transition: all 1s ease;
+}
+span:hover{
+    background-color: #520000;
+    box-shadow: 0 0 5px #520000, 0 0 25px #520000, 0 0 50px #520000, 0 0 200px #520000;
+    color:#F7F3F7;
+}
+
+nav{
+    border-radius: 70px;
+    margin: 30px auto;
+    padding: 0;
+    width:90%;
+    height: 10%;
+    background:#F7F3F7;
+    color:#520000;
+    text-align:center;
+    padding: 1%;
+    border:none;
+}
+
+.selection{
+    margin:5px;
+}
+
+a{
+    
+    color:#520000;
+    font-weight:600;
+    opacity: 1;
+    text-decoration: none;
+    font-size: 11px;
+    transition: all 1s ease;
+    padding: 4px 6px;
+    border-radius: 10px;
+}
+a:hover{
+    color:#F7F3F7;
+    box-shadow: inset 0 -10.5em 0 0 #520000;
+}
+
+
+#pfp{
+    position:absolute;
+    top: 15%;
+    right:22%;
+    width: 250px;
+    height: 280px;
+    border-radius: 0%;
+    background-image: url(images/ziyad-khan.jpg);
+    background-size: cover;
+}
+
+#list{
+    text-align: left;
+}
+
+.pagename{
+    font-size: 42px;
+    margin-top:5%;
+    color:#F7F3F7;
+    text-align: center;
+}
+
+.wrapper{
+    width: 85%;
+    height:90%;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /*border:1px solid white;*/
+
+}
+
+.project-box{
+    background-color: #2D2529;
+    text-align: center;
+    margin-top:10px;
+    margin-left: 2%;
+    padding:2px;
+    width:100%;
+    height:100%;
+    border-radius: 12px;
+    /*border:5px solid red;*/
+}
+.project-img{
+    /*border:2px solid blue;*/
+    width:100%;
+    height:150px;
+}
+
+footer{
+    position: absolute;
+    bottom:0%;
+    width: 100%;
+    height: 50px;
+    width: 100%;
+    text-align:center;
+    background-color:#221C1F ;
+    color: #F7F3F7;
+}
+
+
+#resume{
+    padding: 6px 10px;
+    border-radius: 10px;
+    background-color: #520000;
+    color:#F7F3F7;
+        
+    
+}
+
+.abt-pg-header{
+    position:absolute;
+    top:8%;
+    left:25%;
+    text-align: center;
+    float:left;
+    width:50%;
+    font-family: "Space Grotesk" sans-serif;
+    color:#F7F3F7;
+    /*border: solid white 1px;*/
+    font-size: 45px;
+    font-weight: 700;
+    
+    
+}
+
+.abt-pg-text{
+    position:absolute;
+    top:45%;
+    left:10%;
+    text-align: center;
+    margin:auto;
+    width:80%;
+    /*border:solid white 1px;*/
+    color: #F7F3F7;
+}
+
+.highlight{
+    color:#520000
+}
+
+.highlight:hover{
+    background-color: #520000;
+    box-shadow: 0 0 5px #520000, 0 0 25px #520000, 0 0 50px #520000, 0 0 200px #520000;
+    color:#F7F3F7;
+}
+
+.proj-description{
+    color: #F7F3F7;
+}
+
+.text-prompt{
+    color: #0B090A;
+    width:300px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-holder{
+    padding:3px 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F7F3F7;
+    width:150px;
+    margin:auto;
+}
+
+video{
+    position:absolute;
+    top:72%;
+    left:53%;
+    width:200px;
+    height:130px;
+    
+}
